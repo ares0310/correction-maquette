@@ -1,0 +1,12 @@
+.hauteur{
+    height: 100px;
+}
+
+.degrade{
+    background: linear-gradient(0.25turn, #FF554E, #FFB504);
+}
+
+.degrade li{
+    background: none;
+    border: none;
+}
