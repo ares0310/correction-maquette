@@ -16,53 +16,220 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
     <title>Maquette correction</title>
   </head>
   <body>
     <!--HEADER-->
     <header>
-      <div class="container-fluid degrade" >
-        <div class="row">
-          <h1 class="col-md-4 hauteur">
+      <div class="container-fluid degrade">
+        <div class="row" id="header1">
+          <h1 class="col-md-6 mx-auto text-white">
             Get Full-Featured INTENSE Template
           </h1>
-          <ul
-            class="list-group list-group-horizontal col-md-6  hauteur"
-          >
-            <li class="list-group-item">1</li>
-            <li class="list-group-item">2</li>
-            <li class="list-group-item">3</li>
-            <li class="list-group-item">4</li>
+          <ul class="list-group list-group-horizontal col-md-5 mx-auto">
+            <li class="list-group-item border-right text-white">
+              500+ HTML Files
+            </li>
+            <li class="list-group-item border-right text-white">
+              29 Niche Templates
+            </li>
+            <li class="list-group-item border-right text-white">
+              1000+ UI Elements
+            </li>
+            <li class="list-group-item text-white">Novi Page Builder</li>
           </ul>
-          <button type="button" class="btn btn-success col-md-2  hauteur">
+          <button type="button" class="btn btn-success col-md-0 btn-sm m-auto">
             SHOP NOW!
           </button>
         </div>
       </div>
       <div class="container">
-        <div class="row">
-          <h1 class="col hauteur">Business Company</h1>
-          <h3 class="col hauteur">800-1234-567-89</h3>
+        <div class="row liste1">
+          <a class="col-md-4 text-right" id="business" href="#">Business</a>
+
+          <ul class="col-md-2 text-left pt-4">
+            <li class="text-dark font-weight-bold"><span>Free</span></li>
+            <li class="text-dark">Company</li>
+          </ul>
+          <ul class="col-md-6 text-right">
+            <li>
+              <h3 class="pt-5">
+                <span class="material-icons" id="telephone"> call </span>
+                800-1234-567-89
+              </h3>
+            </li>
+            <li>
+              Call us now to get a free business consultation from our experts
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12"><p>d</p></div>
+
+      <!--NAVBAR-->
+      <nav class="navbar p-0 bg-dark">
+        <div class="container">
+          <div class="row">
+            <a class="pr-5 navbutton text-white font-weight-bold" href="#"
+              >HOME</a
+            >
+            <a class="pr-5 navbutton text-white font-weight-bold" href="#"
+              >ABOUT</a
+            >
+            <a class="pr-5 navbutton text-white font-weight-bold" href="#"
+              >TYPOGRAPHY</a
+            >
+            <a class="navbutton text-white font-weight-bold" href="#"
+              >CONTACTS</a
+            >
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <!--//////////////////HEADER//////////////////////////-->
+
+    <!--SLIDER CAROUSEL------------------------------>
+    <div class="container">
+      <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <!--carousel indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <!--wrapper(emballage) slides-->
+        <div class="carousel-inner">
+          <div class="carousel-item active w-100">
+            <img src="images/image1.jpg " alt="Image1" />
+          </div>
+          <div class="carousel-item w-100">
+            <img src="images/image2.jpg" alt="Image2" />
+          </div>
+          <div class="carousel-item w-100">
+            <img src="images/image3.jpg" alt="Image3" />
+          </div>
+        </div>
+        <!--Left Right controls-->
+        <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <!--///////SLIDER/////////////-->
+
+    <main>
+      <div class="container part1">
+        <div class="row">
+          <article class="col-md-3  art1">
+            <span class="material-icons"> public </span>
+            <h4 class="p-2">Global <br>research</h4>
+            <p>
+              and your Be sure to have your pages set up with the latest design and
+              development standards. That means using an HTML5 doctype and
+              including a viewport meta tag for proper responsive behaviors. Put
+              it all together and your pages should look like this:
+            </p>
+          </article>
+          <article class="col-md-3 art1">
+            <span class="material-icons"> lightbulb </span>
+            <h4 class="p-2">Creative<br> ideas</h4>
+            <p>
+              an HTML5 Be sure to have your pages set up with the latest design and
+              development standards. That means using an HTML5 doctype and
+              including a viewport meta tag for proper responsive behaviors. Put
+              it all together and your pages should look like this:
+            </p>
+          </article>
+          <article class="col-md-3 art1">
+            <span class="material-icons"> settings </span>
+            <h4 class="p-2">Reliable<br> solutions</h4>
+            <p>
+              pages set Be sure to have your pages set up with the latest design and
+              development standards. That means using an HTML5 doctype and
+              including a viewport meta tag for proper responsive behaviors. Put
+              it all together and your pages should look like this:
+            </p>
+          </article>
+          <article class="col-md-3 art1">
+            <span class="material-icons"> public </span>
+            <h4 class="p-2">Professional<br> management</h4>
+            <p>
+              That means using an HTML5 doctype and Be sure to have your pages set up with the latest design and
+              development standards. That means using an HTML5 doctype and
+              including a viewport meta tag for proper responsive behaviors. Put
+              it all together and your pages should look like this:
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <section class="container section1 pt-5">
+        <div class='row'>
+          <article class="col-md-6 row m-0 p-0 border-bottom">
+            <span class="material-icons"> public </span>
+            <ul>
+              <li><h4>Free Consultations</h4></li>
+              <li><p>Be sure to have your pages set up with the latest design and
+                development standards. That means using an HTML5 doctype and
+                </p></li>
+            </ul>
+          </article>
+          <article class="col-md-6 row m-0 p-0 border-bottom">
+            <span class="material-icons"> supervisor_account </span>
+            <ul>
+              <li><h4>Qualified team</h4></li>
+              <li><p>Be sure to have your pages set up with the latest design and
+                development standards. That means using an HTML5 doctype and
+                </p></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      
+
+      <section class="container section1 pt-5">
+        <div class='row'>
+          <article class="col-md-6 row m-0 p-0">
+            <span class="material-icons"> date_range </span>
+            <ul>
+              <li><h4>Extensive Services</h4></li>
+              <li><p>Be sure to have your pages set up with the latest design and
+                development standards. That means using an HTML5 doctype and
+                </p></li>
+            </ul>
+          </article>
+          <article class="col-md-6 row m-0 p-0">
+            <span class="material-icons"> thumb_up </span>
+            <ul>
+              <li><h4>Free Consultations</h4></li>
+              <li><p>Be sure to have your pages set up with the latest design and
+                development standards. That means using an HTML5 doctype and
+                </p></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

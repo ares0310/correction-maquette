@@ -1,6 +1,6 @@
-.hauteur{
+/* .hauteur{
     height: 100px;
-}
+} */
 
 .degrade{
     background: linear-gradient(0.25turn, #FF554E, #FFB504);
@@ -9,4 +9,72 @@
 .degrade li{
     background: none;
     border: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+
+a{
+    color: white;
+}
+
+#business{
+    color: #62BFE6;
+    font-size: 80px;
+}
+
+.liste1 li{
+    list-style-type: none;
+}
+
+ul span{
+    background-color: #F6F466;
+}
+
+#telephone{
+    color: #62BFE6;
+    background-color: white;
+    font-size: larger;
+}
+
+.navbutton{
+    padding: 14px 28px;
+}
+
+.navbutton:hover{ background-color: #62BFE6;
+    text-decoration: none;
+    height: 100%;
+
+}
+
+#carousel1 img{
+    max-height: 800px;
+
+}
+
+.art1{
+    background-color: #57AACD;
+    color: white
+}
+
+.part1{
+    margin-top: -1rem;
+}
+
+.part1 span{
+    font-size: 90px;
+}
+
+.section1 span{
+    font-size: 80px;
+    padding: 10px;
+    background-color: #62BFE6;
+    color: white;
+    max-height: 100px;
+}
+.section1 ul{
+    max-width: 400px;
+    list-style-type: none;
 }
