@@ -1,6 +1,9 @@
-/*.hauteur{
-    height: 100px;
-} lolol*/
+.hauteur{
+    height: 300px;
+} 
+.hauteur1{
+    height: 400px;
+} 
 
 .degrade{
     background: linear-gradient(0.25turn, #FF554E, #FFB504);
@@ -29,7 +32,7 @@ a{
     list-style-type: none;
 }
 
-ul span{
+header span{
     background-color: #F6F466;
 }
 
@@ -77,4 +80,89 @@ ul span{
 .section1 ul{
     max-width: 400px;
     list-style-type: none;
+}
+
+.art3 span{
+    background-color: white;
+    color: #62BFE6;
+}
+
+.art3 li{
+    list-style-type: none;
+}
+
+.art4 li{
+    list-style-type: none;
+}
+
+#liste2{
+    padding: 0;
+}
+
+#liste3{
+    background-color: #57AACD;
+    color: white;
+}
+#liste4{
+    background-color: #F5F5F5;
+}
+
+#image4{
+    /* display: block; */
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.art4 span{
+    color: #62BFE6;
+}
+
+.image5{
+    max-width: 60%;
+    /* height: auto; */
+}
+
+footer li{
+    color: gray;
+    border:none;
+}
+
+footer span{
+    background-color:#62BFE6;
+    
+}
+
+#location{
+    color: #62BFE6;
+    background-color: #4A4C4E;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    font-size: 25px;
+}
+
+#telephone2{
+    color: #62BFE6;
+    background-color: #4A4C4E;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    font-size: 25px;
+}
+
+.liste5{border: none;}
+
+h3 span{
+    color: white
+}
+
+
+@media (max-width: 575px) {
+    .hauteur {height: 800px}
+}
+
+@media (max-width: 767px){
+    .hauteur {height: 600px}
 }
