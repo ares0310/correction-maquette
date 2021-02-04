@@ -43,22 +43,56 @@
             </li>
             <li class="list-group-item text-white">Novi Page Builder</li>
           </ul>
-          <button type="button" class="btn btn-success col-12 col-md-1 btn-sm m-auto">
+          <button
+            type="button"
+            class="btn btn-success col-12 col-md-1 btn-sm m-auto"
+          >
             SHOP NOW!
           </button>
         </div>
       </div>
-      <div class="container business">
+      <!-- <div class="container business">
         <div class="row liste1">
-          <a class="col-12 col-md-4 text-right" href="#">Business</a>
+          <a class="col-12 col-md-4 col-lg-4 text-right" href="#">Business</a>
 
-          <ul class="col-12 col-md-2 text-left pt-4">
+          <ul class="col-12 col-md-2 col-lg-4 text-left pt-4">
             <li class="text-dark font-weight-bold"><span>Free</span></li>
             <li class="text-dark">Company</li>
           </ul>
-          <ul class="col-12 col-md-6 text-right">
+          <ul class="col-12 col-md-6 col-lg-4 text-right">
             <li>
               <h3 class="pt-5">
+                <span class="material-icons" id="telephone"> call </span>
+                800-1234-567-89
+              </h3>
+            </li>
+            <li>
+              Call us now to get a free business consultation from our experts
+            </li>
+          </ul>
+        </div>
+      </div> remettre juste après -->
+      <div class="container-fluid business hauteurBusiness">
+        <div class="row liste1">
+          <a class="col-4 col-md-4 col-lg-4 text-right pt-4" href="#"
+            ><h2>
+              Business
+            </h2></a>
+          
+            <p class="col-2 col-md-2 col-lg-2 pt-4"> <span class="badge">Free</span
+              ><br>Company</p>
+
+          <div class="offset-1 offset-md-1 offset-lg-1">
+          </div>
+
+
+
+
+
+
+          <ul class="col-5 col-md-5 col-lg-5 text-center listeTelephone">
+            <li>
+              <h3 class="pt-5 numerosize">
                 <span class="material-icons" id="telephone"> call </span>
                 800-1234-567-89
               </h3>
@@ -104,13 +138,13 @@
         <!--wrapper(emballage) slides-->
         <div class="carousel-inner">
           <div class="carousel-item active w-100">
-            <img src="images/image1.jpg " alt="Image1" />
+            <img src="images/image1.jpg " class="w-100" alt="Image1" />
           </div>
           <div class="carousel-item w-100">
-            <img src="images/image2.jpg" alt="Image2" />
+            <img src="images/image2.jpg" class="w-100" alt="Image2" />
           </div>
           <div class="carousel-item w-100">
-            <img src="images/image3.jpg" alt="Image3" />
+            <img src="images/image3.jpg" class="w-100" alt="Image3" />
           </div>
         </div>
         <!--Left Right controls-->
@@ -240,19 +274,17 @@
 
       <section class="container pt-5">
         <div class="row">
-          <article class="col-12 col-md-4 pl-0">
+          <article class="col-12 col-md-4 art2">
             <h3>About</h3>
-            <img src="images/fruit.jpg" />
-            <p class="pb-5">
+            <img src="images/fruit.jpg" class="imageFruit" />
+            <!--SI Probleme imageFruit remplace par w-100-->
+            <p class="pb-4">
               and your Be sure to have your pages set up with the latest design
               and development standards. That means using an HTML5 doctype and
               including a viewport meta tag for proper responsive behaviors. Put
               it all together and your pages should look like this:
             </p>
-            <button
-              type="button"
-              class="btn btn-sm m-auto button1"
-            >
+            <button type="button" class="btn btn-sm m-auto button1">
               READ MORE
             </button>
           </article>
@@ -261,9 +293,8 @@
             <p>
               including a viewport meta tag for proper responsive behaviors. Put
               it all together and your pages should look like this:
-              
             </p>
-            
+
             <ul id="liste2" class="p-0">
               <li><span class="material-icons check1"> check </span>page</li>
               <hr />
@@ -277,29 +308,29 @@
               <hr />
               <li><span class="material-icons check1"> check </span>page</li>
               <hr />
-              <li class="pb-5"><span class="material-icons check1"> check </span>page</li>
-              <button
-              type="button"
-              class="btn btn-sm m-auto button1"
-            >
-              READ MORE
-            </button>
+              <li class="pb-5">
+                <span class="material-icons check1"> check </span>page
+              </li>
+              <button type="button" class="btn btn-sm m-auto button1">
+                READ MORE
+              </button>
             </ul>
           </article>
-          <article class="col-12 col-md-4 art4">
-            <ul>
+          <article class="col-12 col-sm-12 col-md-4 art4">
+            <ul class="">
               <li class="p-5 row" id="liste3">
-                <h3 class="border-bottom pr-5 pb-3"><span class="material-icons" id="span1">
-                  forum
-                  </span>Help center</h3>
+                <h3 class="border-bottom pb-3">
+                  <span class="material-icons" id="span1"> forum </span>Help
+                  center
+                </h3>
                 <h5>Ask professionals:</h5>
                 <br />
                 <p class="pb-2 border-bottom">
                   Monday-Friday: 8am-7pm<br />Saturday: 8am-5pm<br />Sunday:
                   1pm-5pm
                 </p>
-                
-                <h5>24/7 Online Support:</h5>
+
+                <h5 class="pr-3">24/7 Online Support:</h5>
                 <p>800-2345-6789</p>
               </li>
               <br />
@@ -307,9 +338,13 @@
                 <img
                   src="images/profil.jpeg"
                   id="image4"
-                  class="col-12 col-md-5 pt-4"
+                  class="col-12 col-md-5 pt-4 w-100"
                 />
-                <div><span class="material-icons pt-3" id="span2"> format_quote </span></div>
+                <div>
+                  <span class="material-icons pt-3" id="span2">
+                    format_quote
+                  </span>
+                </div>
                 <p class="col-md-5 pt-3">
                   meta tag for proper responsive behaviors. Put it all together
                   and your pages should look like this:
@@ -322,7 +357,7 @@
       <section class="container-fluid">
         <div class="row bg-dark hauteur degrade">
           <div class="col-12 col-md-5 d-flex justify-content-around">
-            <img src="images/code.gif" class="image5 p-4" />
+            <img src="images/code.gif" class="image5 p-4 w-100" />
           </div>
           <div class="col-12 col-md-7">
             <h1 class="mx-auto text-white">
