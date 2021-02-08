@@ -5,7 +5,7 @@ header {
 
 
 footer {
-    height: 400px;
+    height: auto;
     background: linear-gradient(0.25turn, #B74249, #C95753);
 }
 
@@ -17,5 +17,29 @@ footer {
     background-color: #C95753;
     color: white;
     font-size: 90px;
+    
 
 }
+
+#comment{
+    background-color: #CA7368;
+}
+
+.emailInput{
+    background-color: #CA7368;
+}
+
+.nameInput{
+    background-color: #CA7368;
+}
+
+.moreButton {background-color: #BA464B;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 575px){
+    footer article{text-align: center;}
+    footer span{align-items: left;}
+}
+

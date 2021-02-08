@@ -20,7 +20,7 @@
     <!--HEADER-->
     <header class="container-fluid p-5">
       <div class="row text-white">
-        <div class="col-md-12 text-center pt-5">
+        <div class="col-12 col-md-12 text-center pt-5">
           <span class="material-icons"> details </span>
           <h1>WELCOME TO MY SITE</h1>
           <p>
@@ -33,9 +33,9 @@
     <main>
       <!--PREMIERE SECTION-->
       <section class="container p-5 firstline">
-        <div class="d-flex justify-content-between">
-          <article class="col-md-3 text-center pb-3">
-            <span class="material-icons w-50 icon1"> photo_camera </span>
+        <div class="row justify-content-between">
+          <article class="col-12 col-md-3 text-center pb-3">
+            <span class="material-icons w-auto icon1">photo_camera</span>
             <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, ei minim choro gloriatur vix.<br />
@@ -43,8 +43,8 @@
               dolor sit amet, ei minim choro gloriatur vix.<br />
             </p>
           </article>
-          <article class="col-md-3  text-center pb-3">
-            <span class="material-icons w-50 icon2"> monitor </span>
+          <article class="col-12 col-md-3 text-center pb-3">
+            <span class="material-icons w-auto icon2"> monitor </span>
             <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, ei minim choro gloriatur vix.<br />
@@ -52,8 +52,8 @@
               dolor sit amet, ei minim choro gloriatur vix.<br />
             </p>
           </article>
-          <article class="col-md-3 text-center icon3 pb-3">
-            <span class="material-icons w-50"> settings </span>
+          <article class="col-12 col-md-3 text-center icon3 pb-3">
+            <span class="material-icons w-auto"> settings </span>
             <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, ei minim choro gloriatur vix.<br />
@@ -70,7 +70,7 @@
         <div class="d-flex justify-content-between">
           <article class="col-md-3 text-center">
             <img src="images/image.jpg" class="img-fluid" />
-            <h3>Scaevola Vivendum</h3>
+            <h3 class="pt-3">Scaevola Vivendum</h3>
             <p>
               Lorem ipsum dolor sit amet, ei minim choro gloriatur vix.<br />
               At pro molestie appareat, voluptua invidunt ei duo. Lorem ipsum
@@ -79,7 +79,7 @@
           </article>
           <article class="col-md-3 text-center">
             <img src="images/image.jpg" class="img-fluid" />
-            <h3>Vidisse Nusquam</h3>
+            <h3 class="pt-3">Vidisse Nusquam</h3>
             <p>
               Lorem ipsum dolor sit amet, ei minim choro gloriatur vix.<br />
               At pro molestie appareat, voluptua invidunt ei duo. Lorem ipsum
@@ -88,36 +88,41 @@
           </article>
           <article class="col-md-3 text-center">
             <img src="images/image.jpg" class="img-fluid" />
-            <h3>Mucius Imperdiet</h3>
+            <h3 class="pt-3">Mucius Imperdiet</h3>
             <p>
               Lorem ipsum dolor sit amet, ei minim choro gloriatur vix.<br />
               At pro molestie appareat, voluptua invidunt ei duo. Lorem ipsum
               dolor sit amet
             </p>
-          </article>
+          </article>  
         </div>
       </section>
+      <div class="container">
+        <div class="d-flex justify-content-center pb-4 ">
+          <button class="col-md-2 btn moreButton">More</button>
+        </div>
+      </div>
     </main>
 
     <footer class="container-fluid">
       <div class="row justify-content-center">
-        <section class="col-md-5 text-white">
-          <h3 class="col-md-12 pb-2">CONTACT</h3>
+        <section class="col-12 col-md-5 text-white">
+          <h3 class="col-md-12 pb-2 pt-5">CONTACT</h3>
           <div class="row">
-            <article class="row col-md-6 p-3">
-              <span class="material-icons col-md-2 pt-3"> home </span>
+            <article class="row col-12 col-md-6 p-3">
+              <span class="material-icons col-md-2 pt-1"> home </span>
               <h4>Address<br><small>Your corporate address</small></h4>
             </article>
-            <article class=" row col-md-6 p-3">
-              <span class="material-icons col-md-2 pt-3"> sms </span>
+            <article class="row col-12 col-md-6 p-3">
+              <span class="material-icons col-md-2 pt-1"> sms </span>
               <h4>Social<br><small>www.sample.com</small></h4>
             </article>
-            <article class="row col-md-6 p-3">
-              <span class="material-icons col-md-2 pt-3"> mail </span>
+            <article class="row col-12 col-md-6 p-3">
+              <span class="material-icons col-md-2 pt-1"> mail </span>
               <h4>Email<br><small>info@sample.com</small></h4>
             </article>
-            <article class="row col-md-6 p-3">
-              <span class="material-icons col-md-2 pt-3"> stay_current_portrait </span>
+            <article class="row col-12 col-md-6 p-3">
+              <span class="material-icons col-md-2 pt-1"> stay_current_portrait </span>
               <h4>Phone<br><small>(0000) 123-00000</small></h4>
             </article>
           </div>
@@ -125,20 +130,25 @@
 
 
 
-        <section class="col-md-5 text-white">
+        <section class="col-12 col-md-5 text-white pt-5">
           <h3>GET IN TOUCH</h3>
           <form>
             <div class="row">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control nameInput" placeholder="Name">
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control emailInput" placeholder="Email">
               </div>
             </div>
             <div class="form-group">
               <label for="comment"></label>
               <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+            </div>
+            <div class="container">
+              <div class="d-flex justify-content-left pb-4">
+                <button class="bg-warning btn">Send</button>
+              </div>
             </div>
           </form>
         </section>
@@ -147,7 +157,7 @@
 
         <br />
         <section class="col-md-12 pt-3">
-          <p class="text-center pt-5">Untitled. All rights reserved</p>
+          <p class="text-center pt-5 text-white">Untitled. All rights reserved</p>
         </section>
       </div>
     </footer>
